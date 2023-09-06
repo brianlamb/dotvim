@@ -1,0 +1,6 @@
+[submodule "pack/airblade/start/gitgutter"]
+	path = pack/airblade/start/gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/tpope/start/sensible"]
+	path = pack/tpope/start/sensible
+	url = git@github.com:https://github.com/tpope/vim-sensible.git
