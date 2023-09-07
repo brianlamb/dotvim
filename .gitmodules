@@ -10,3 +10,9 @@
 [submodule "pack/tmhedberg/start/SimplFold"]
 	path = pack/tmhedberg/start/SimplFold
 	url = https://github.com/tmhedberg/SimpylFold
+[submodule "pack/tpope/start/fugitive"]
+	path = pack/tpope/start/fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/vim-scripts/start/indentpython"]
+	path = pack/vim-scripts/start/indentpython
+	url = https://github.com/vim-scripts/indentpython.vim
