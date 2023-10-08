@@ -1,3 +1,6 @@
+"not implemented fully but some additional options to consider in:
+"https://vim.fandom.com/wiki/Example_vimrc
+"
 set number
 set scl=yes
 
@@ -35,7 +38,7 @@ nnoremap <space> za
 "    when moving or operating fold-wise (zj,zk,[z,]z)
 "    when typing zuz in normal mode
 
-
+"https://realpython.com/vim-and-python-a-match-made-in-heaven/#vim-extensions
 "To add the proper PEP 8 indentation, add the following to your .vimrc:
 au BufNewFile,BufRead *.py
     set tabstop=4
@@ -45,4 +48,10 @@ au BufNewFile,BufRead *.py
     set expandtab
     set autoindent
     set fileformat=unix
+
+set encoding=utf-8
+
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
+"Plugin 'vim-scripts/indentpython.vim'
 
